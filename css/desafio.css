@@ -55,6 +55,12 @@ img{
     list-style-position: inside;
 }
 
+.gif-sonic{
+    width: 1030px;
+    object-fit: cover;
+}
+
+
 .titulo-saiba-mais{
     color: black;
     font-size: 30px;
