@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+body{
+    text-align: center;
+    background-color: #660303;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 80px;
+    color: #fff;
+}
+
+p{
+    font-size: 30px;
+    background-color: #fff;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #fff;
+}

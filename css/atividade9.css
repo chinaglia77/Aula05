@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "AbhayaLibre";
+    src: url(../font/AbhayaLibre-Regular.ttf);
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    color: #aa6907;
+}
