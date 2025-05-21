@@ -3,17 +3,21 @@
     src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-body{
+*{
+    margin: 0;
+}
+
+.fundo{
     background-color: red;
+    height: 100vh;
+    text-align: center;
 }
 
 
 .titulo{
     color: green;
-    text-align: center;
 }
 
 p{
     font-family: "Exile", system-ui;
-    text-align: center;
 }
