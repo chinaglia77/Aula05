@@ -11,7 +11,7 @@
 
 .fundo{
     background-color: #ffffff;
-    background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(0, 115, 196, 1) 100%);
+    background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgb(4, 105, 177) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,6 +40,7 @@ img{
     border-radius: 10px;
     padding: 20px;
     width: 1000px;
+    border: 1px #000000 solid;
 }
 
 .curiosidade{
@@ -49,6 +50,7 @@ img{
     padding: 20px;
     width: 1000px;
     justify-items: center;
+    border: 1px #000000 solid;
 }
 
 .curiosidade ol{
@@ -72,19 +74,23 @@ img{
     border-radius: 10px;
     padding: 20px;
     width: 1000px;
+    border: 1px #000000 solid;
 }
 
-.btn-saiba-mais{
-    border: none;
-    background-color: #0021b4;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    color: #fff;
-    outline: none;
-    cursor: pointer;
-}
-
-.btn-saiba-mais:hover{
+.saiba-mais a{
+    text-decoration: none;
     background-color: #000d46;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 12px;
+    color: #fff;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+.saiba-mais a:hover{
+    background-color: #fff;
+    color: #000d46;
+    transition: 0.2s;
+    border: 1px solid #000d46;
 }
