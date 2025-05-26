@@ -67,3 +67,47 @@
 .card-atividades button:hover{
     background-color: #494949;
 }
+
+.card-desafio{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: -1px -1px 13px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 13px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 13px -4px rgba(0,0,0,0.75);;
+    height: 190px;         /* altura fixa para todos os cards */
+    background-color: #000616;
+    padding: 10px;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.card-desafio h1{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.card-desafio p {
+    color: #ffffff;
+    height: 80px;      
+    overflow: hidden;  
+    flex-grow: 1;      
+}
+
+.card-desafio button{
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-desafio button:hover{
+    background-color: #ececec;
+}
