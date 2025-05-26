@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
+}
+*{
+    margin: 0;
+}
+
+.fundo{
+    height: 100vh;
+}
+
+.quadrado-pai{
+    width: 270px;
+    height: 400px;
+    
+    /* margin: 10px 20px 20px 100px; */
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+/*Minha tag img esta sendo referenciada a minha classe quadrado*/
+.quadrado-pai img{
+    height: 200px;
+    border-radius: 20px;
+    width: 100%;
+    /* centraliza o objeto conforme o tamanho vai se adptando */
+    object-position: center;
+}
+
+.quadrado-pai a{
+    background-color: #d30606;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font: "Inter";
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #000000;
+    transition: 0.5s
+}
+
+.quadrado-pai a:hover{
+    background-color: #ffffff;
+    color: #d30606;
+    transition: 0.5s;
+
+}
