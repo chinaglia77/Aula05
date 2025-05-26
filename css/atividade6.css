@@ -3,7 +3,7 @@
     src: url(../font/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-body{
+.fundo-pagina{
     text-align: center;
     background-color: #660303;
 }
